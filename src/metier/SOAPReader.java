@@ -52,7 +52,7 @@ public class SOAPReader {
             body = envelope.getBody();
 
 
-            body.getChildElements()
+            body.getChildElements();
             ArrayList<Pays> listePays = new ArrayList<>();
 
             for (int i = 0; i < listeNoeud.getLength(); i++) {
